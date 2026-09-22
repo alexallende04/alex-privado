@@ -1,0 +1,32 @@
+TESTING UNITARO: probar las funcionalidades que desarrollamos, luego de probarlas se entregan las funcionalidades.
+
+probamos funcionalidades puntuales, la prueba del sistema se hace al final porque es compleja y cara 
+
+nos permite identificar errores tempranos. (importante) errores de código y errores de especificación
+
+refactorización segura: cambiar estructura de código para reacomodar, ahí entran los test unitarios, quiero probar de forma rápida si cambio algo y no rompí nada.
+
+
+Python tiene una herramienta que se llama: pytest 
+
+- escribir las pruebas  igual que como escribir código en Python 
+- ejecución automática de las pruebas 
+- escribir pruebas hasta que se considere que el nivel de calidad es suficiente 
+- se instala con pip install
+- escribir nombres significativos a las funciones de prueba
+
+
+pasos para una prueba:
+1) crear la función para probar
+2) estructura: escribir el caso de prueba usando la sentencia pytest
+3) validación: usar "a" para verificar el resultado esperado
+4) 
+
+parametrización de testing: creo una lista de escenarios posibles, y evaluó que para cada combinación de valores me devuelva lo que espero
+
+pytest
+- simplicidad
+- calidad de software
+- detección de errores temprana
+- integración CUCD: integración con gitlab, GitHub,etc
+- auto atizacion: automatizar la ejecucion de los test
