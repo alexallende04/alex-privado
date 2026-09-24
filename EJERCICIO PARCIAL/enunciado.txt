@@ -1,0 +1,6 @@
+EJERCICIO 6 - TRANSPORTE DE PASAJEROS
+Viaje urbano: pasajeros × precio base. Viaje interurbano: mismo importe +10%.
+Leer viajes.csv. El tipo solo determina qué objeto crear.
+1. Importe mediante polimorfismo. 2. Recaudación total. 3. Pasajeros por destino. 4. Viaje con mayor cantidad de pasajeros.
+Formato: tipo, codigo, conductor, destino, pasajeros, precio_base. Tipo 1=urbano; 2=interurbano.
+
